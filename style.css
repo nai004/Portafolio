@@ -1,0 +1,70 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6acb8;
+    color: #f0bcbce8;
+}
+
+h2 {
+    color: #e099b1;
+    background-color: #eee3e7;
+    border-radius: 50;
+    margin: 50;
+    
+    
+}
+
+.navbar-brand {
+    color: #e76299 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 
+    sans-serif; 
+}
+
+.nav-link {
+    color: #e9a1a1 !important;
+    background-color: rgb(231, 231, 171);
+    border-width: 5;
+    border-style:ridge;
+    box-shadow: #ddcad1;
+    background: whitesmoke;
+    border-color: #ee9cb0;
+    
+    
+}
+
+.rounded-circle.animated-heart {
+    animation: heartbeat 1.5s infinite;
+    border: #e099b1;
+    color: #e9a1a1;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.card {
+    transition: transform 0.2s;
+    border-radius: 0.5rem;
+    border-color: #e099b1;
+    color: rgb(138, 15, 52);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(219, 152, 152, 0.883);
+    color: #ee94a0;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    color: #e9a1a1;
+}
+
+footer .fab:hover {
+    color: #f5e0e3cb;
+}
